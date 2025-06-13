@@ -1,0 +1,24 @@
+# Global .gitignore for my-portfolio-app monorepo
+
+# Backend (Spring Boot)
+/backend/target/
+/backend/.gradle/ # If using Gradle
+/backend/build/   # If using Gradle
+/backend/.idea/   # IntelliJ IDEA files
+/backend/*.iml    # IntelliJ IDEA files
+/backend/hs_err_pid* # JVM crash logs
+/backend/logs/
+
+# Frontend (Angular)
+/frontend/node_modules/
+/frontend/dist/  # Angular production build output
+/frontend/.angular/cache/ # Angular specific cache
+/frontend/.vscode/ # VS Code specific settings
+/frontend/.env # Environment variables file (if you decide to use it)
+
+# IDE and OS generated files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
